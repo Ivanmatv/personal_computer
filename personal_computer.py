@@ -1,4 +1,4 @@
-from hardware import Cell, VideoCard, HardDriver
+from hardware import Processor, VideoCard, HardDriver
 
 
 class PersonalComputer:
@@ -10,7 +10,7 @@ class PersonalComputer:
 
     def add_processor(self, processor: str, frequency: float) -> None:
         if isinstance(processor, str) and isinstance(frequency, float):
-            self.__processor = Cell(processor, frequency)
+            self.__processor = Processor(processor, frequency)
 
     def add_video_card(self, name_video_card: str, memory_size: int) -> None:
         if isinstance(name_video_card, str) and isinstance(memory_size, int):
