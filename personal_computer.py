@@ -1,4 +1,6 @@
-from hardware import Processor, VideoCard, HardDriver
+from hard_driver import HardDriver
+from processor import Processor
+from video_card import VideoCard
 
 
 class PersonalComputer:
