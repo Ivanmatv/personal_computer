@@ -29,7 +29,7 @@ python main.py
 
 After lunch application, you receive message in the terminal
 ```
-{'Model': 'Apple', 'Cell': [AMD, 3.3 GHz], 'Video Card': [Nvidia, 16 GB], 'Hard Driver': [Samsung, 512 GB]}
+"Model": Apple, "Processor": AMD, 3.3 GHz, "Video Card": Nvidia, 16 GB, "Hard Driver": Samsung, 512 GB
 ```
 
 ## Requirements
